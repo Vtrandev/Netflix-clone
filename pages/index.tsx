@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Banner from '../components/Banner'
 import Header from '../components/Header'
+import { Movie } from '../typings'
 import requests from '../utils/requests'
 
 interface Props {
