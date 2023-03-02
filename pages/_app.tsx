@@ -7,9 +7,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     // High Order Components
     <RecoilRoot>
-      <AuthProvider>
+      {/* <AuthProvider> */}
         <Component {...pageProps} />
-      </AuthProvider>
+      {/* </AuthProvider> */}
     </RecoilRoot>
   );
 }

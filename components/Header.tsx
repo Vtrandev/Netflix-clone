@@ -46,7 +46,7 @@ export default function Header() {
         <MagnifyingGlassIcon className="hidden h-6 w-6 sm:inline" />
         <p className="hidden lg:inline">Kids</p>
         <BellIcon className="h-6 w-6" />
-        <Link href="/account">
+        <Link href="/">
           <img
             onClick={logout}
             src="https://rb.gy/g1pwyx"
